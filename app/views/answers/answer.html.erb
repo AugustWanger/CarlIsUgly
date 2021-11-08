@@ -1,0 +1,22 @@
+  <h1>Stupid Coaching</h1>
+<div class="your_question">
+  <ol>
+    <%= @question %>
+  </ol>
+  <ol>
+    <%= '-Your question' %>
+  </ol>
+</div>
+
+<div class="coach_answer">
+  <ol>
+    <%= @answer %>
+  </ol>
+  <ol>
+    <%= '-From coach' %>
+  </ol>
+</div>
+
+<div class="link_coach">
+  <%= link_to "Ask the coach another question", ask_path %>
+</div>
